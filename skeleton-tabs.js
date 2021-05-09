@@ -8,8 +8,14 @@
                 document.querySelector('li a.active.button').classList.remove('active');
                 button.classList.add('active');
 
+                // Removing this line makes each tabs content stay
                 document.querySelector('.tab-pane.active').classList.remove('active');
-                document.querySelector(button.getAttribute('href')).classList.add('active');
+
+                // Removing this line makes each tabs content not appear
+                document.querySelector(button.getAttribute('title')).classList.add('active');
+
+
+
             })
         })
     }
