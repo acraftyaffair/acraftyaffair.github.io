@@ -2,15 +2,15 @@
 <p>Click the Facebook logo to connect with us <a href="https://www.facebook.com/" class="fa fa-facebook"></a> </p>
 
 <p>Booth location and hours of business coming soon!</p>
-<form>
+<form action="https://formspree.io/f/moqyjogb" method="POST">>
   <div class="row">
     <div class="six columns">
       <label for="emailInput">Your email</label>
-      <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="emailInput">
+      <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="emailInput" name="_replyto">
     </div>
     <div class="six columns">
       <label for="recipientInput">Reason for contacting</label>
-      <select class="u-full-width" id="recipientInput">
+      <select class="u-full-width" id="recipientInput" name="Why">
         <option value="Option 1">Purchase</option>
         <option value="Option 2">Questions</option>
         <option value="Option 3">Other</option>
@@ -18,10 +18,6 @@
     </div>
   </div>
   <label for="message">Message</label>
-  <textarea class="u-full-width" placeholder="Hi folks …" id="message"></textarea>
-  <label class="example-send-yourself-copy">
-    <input type="checkbox">
-    <span class="label-body">Send a copy to yourself</span>
-  </label>
+  <textarea class="u-full-width" placeholder="Hi folks …" id="message" name="Message"></textarea>
   <input class="button-primary" type="submit" value="Submit">
 </form>
