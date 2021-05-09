@@ -28,7 +28,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body>
+<body style="background-image: url('images/home.jpg'); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -56,20 +56,12 @@
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="home">
-            <div class="container">
-              <div class="row">
-                <div class="twelve columns">
-                  <h1 style="text-align:center">A Crafty Affair</h1>
-                </div>
-              </div>
-              <div class="row">
-                <div class="twelve columns">
-                  <h1 style="text-align:center">Yarnology and Photography</h1>
-                </div>
-              </div>
+            <div class="container" style="height: 400px">
+              <h1 style="text-align:center">A Crafty Affair</h1>
+              <h1 style="text-align:center">Yarnology and Photography</h1>
             </div>
           </div>
-          <div class="tab-pane" id="about">
+          <div class="tab-pane" id="about" style="border-radius: 5px; background: #FFFFFF; padding: 20px;">
             <h1>About</h1>
             <p>Sitting on her front porch swing, my grandmother taught me to knit and crochet at an early age.
               Working with yarn is so calming and I have enjoyed this hobby off and on my entire life.
@@ -80,13 +72,13 @@
               Some of my favorite shots are located in the photography section.
             </p>
           </div>
-          <div class="tab-pane" id="yarnology">
+          <div class="tab-pane" id="yarnology" style="border-radius: 5px; background: #FFFFFF; padding: 20px;">
             <div w3-include-html="yarnology.html"></div>
           </div>
-          <div class="tab-pane" id="photography">
+          <div class="tab-pane" id="photography" style="border-radius: 5px; background: #FFFFFF; padding: 20px;">
             <div w3-include-html="photography.html"></div>
           </div>
-          <div class="tab-pane" id="contact">
+          <div class="tab-pane" id="contact" style="border-radius: 5px; background: #FFFFFF; padding: 20px;">
             <div w3-include-html="contact.html"></div>
           </div>
         </div>
